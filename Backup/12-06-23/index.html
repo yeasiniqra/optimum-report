@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Optimum Report</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- <script src="/js/IqraService/Js/Global.js"></script> -->
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-wapper">
+                <!--===== start header area =====-->
+                <header class="header-area header">
+                    <div class="header-top">
+                        <img src="image/logo2.png" alt="logo" />
+                        <div class="header-content">
+                            <h2>Optimum Sourcing International Limited</h2>
+                            <span>Inspection Report</span>
+                        </div>
+                    </div>
+                    <div class="hader-table-parent">
+                        <div class="table-parent-top">
+                            <!-- header top content -->
+                            <div class="report-header-top-information-grid report-heder-flex">
+                                <div class="header-info-single-item nature-col">
+                                    <span><b>Nature of Inspection</b> : </span>
+                                    <small class="auto_bind" data-binding="NatureOfInspection">Pre-Final</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Conducted By</b> : </span>
+                                    <small class="auto_bind" data-binding="ConductedBy">OSIL</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>AQL</b> : </span>
+                                    <small class="auto_bind" data-binding="ReportNo">2.5</small>
+                                </div>
+                                <div class="header-info-single-item header-info-single-item-flex">
+                                    <span class="report-result"><b>Result</b></span>
+                                    <span class="report-pass"><b>Pass</b></span>
+                                </div>
+                            </div>
+                            <!-- header top content -->
+                            <!-- common heading -->
+                            <div class="full-row">
+                                <h2 class="pl_root">GENERAL</h2>
+                            </div>
+                            <!-- common heading -->
+                            <!-- header bottom content -->
+                            <div class="report-header-top-information-grid report-header-top-information-grid-more">
+                                <div class="header-info-single-item">
+                                    <span><b>Date</b> : </span>
+                                    <small class="auto_bind" data-binding="Date">23-May-23</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Report No</b> : </span>
+                                    <small class="auto_bind" data-binding="ReportNo">XXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Customer</b> : </span>
+                                    <small class="auto_bind" data-binding="Customer">XXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Combo</b> : </span>
+                                    <small class="auto_bind" data-binding="Combo">4</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>PO Number</b> : </span>
+                                    <small class="auto_bind" data-binding="PoNumber">XXXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Style Number</b> : </span>
+                                    <small class="auto_bind" data-binding="StyleNumber">XXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Arit Number</b> : </span>
+                                    <small class="auto_bind" data-binding="AritNumber">XXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Order Qty</b> : </span>
+                                    <small class="auto_bind" data-binding="OrderQty">35000 Pc</small>
+                                </div>
+                            </div>
+                            <div class="header-grid-col2">
+                                <div class="header-info-single-item">
+                                    <span><b>Description</b> : </span>
+                                    <small class="auto_bind" data-binding="Description">XXXXXXXXXXXXXXX XXXXXXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item base-febric">
+                                    <span><b>Base Fabric</b> : </span>
+                                    <small class="auto_bind" data-binding="BaseFabric">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</small>
+                                </div>
+                            </div>
+                            <!-- header bottom content -->
+                        </div>
+                    </div>
+                </header>
+                <!--===== End header area =====-->
+                <!--====================== start page body for print ======================-->
+                <main>
+                    <h2 class="pageCount"></h2>
+                    <!--===== start Agent table area =====-->
+                    <section class="base-fabrice agent-table margin-root">
+                        <!--  Base Fabric content -->
+                        <div class="report-base-fabric">
+                            <div class="base-fabric-row first-row">
+                                <div class="header-info-single-item">
+                                    <span><b>Agent</b> : </span>
+                                    <small class="auto_bind" data-binding="Agent">XXXXXXXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Address</b> : </span>
+                                    <small class="auto_bind" data-binding="Address">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</small>
+                                </div>
+                            </div>
+                            <div class="base-fabric-row">
+                                <div class="header-info-single-item">
+                                    <span><b>Name of Merchandiser</b> : </span>
+                                    <small class="auto_bind" data-binding="NameOfMerchandiser">XXXXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>E-Mail ID</b> : </span>
+                                    <small class="auto_bind" data-binding="MemailId">XXXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Cell</b> : </span>
+                                    <small class="auto_bind" data-binding="Mcell">XXXXXXXXXXX</small>
+                                </div>
+                            </div>
+                            <div class="base-fabric-row">
+                                <div class="header-info-single-item">
+                                    <span><b>Name of Inspector</b> : </span>
+                                    <small class="auto_bind" data-binding="NameOfInspector">2 or 3 person</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>E-Mail ID</b> : </span>
+                                    <small class="auto_bind" data-binding="IemailId">XXXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Cell</b> : </span>
+                                    <small class="auto_bind" data-binding="Icell">XXXXXXXXXXXXXXXXXXX</small>
+                                </div>
+                            </div>
+                            <div class="base-fabric-row first-row">
+                                <div class="header-info-single-item">
+                                    <span><b>Manufacturer Name</b> : </span>
+                                    <small class="auto_bind" data-binding="ManufacturerName">XXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Address</b> : </span>
+                                    <small class="auto_bind" data-binding="MeAddress">XXXXXXXXXXX</small>
+                                </div>
+                            </div>
+                            <div class="base-fabric-row">
+                                <div class="header-info-single-item">
+                                    <span><b>Contact Person</b> : </span>
+                                    <small class="auto_bind" data-binding="ContactPersion">XXXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>E-Mail ID</b> : </span>
+                                    <small class="auto_bind" data-binding="CsEmailId">XXXXXXXXXXXX</small>
+                                </div>
+                                <div class="header-info-single-item">
+                                    <span><b>Cell</b> : </span>
+                                    <small class="auto_bind" data-binding="CsCell">XXXXXXXXXXX</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  Base Fabric content -->
+                    </section>
+                    <!--===== End Agent area =====-->
+
+                    <!--===== start aql chart table area =====-->
+                    <section class="aql-chart-area">
+                        <div class="table-chart-top">
+                            <!-- common heading -->
+                            <div class="full-row mb-8 desk-m">
+                                <h2 class="pl_root aql_relative">AQL CHART</h2>
+                            </div>
+                            <!-- common heading -->
+                            <table style="width: 100%;">
+                                <!-- <tr class="general">
+                                    <td class="pl_root" colspan="10">AQL CHART</td>
+                                </tr> -->
+                                <tr class="aql-chart-heading">
+                                    <td class="base-agent">Lot Qty (Unit)</td>
+                                    <td>Unit to be <span>Inspected</span></td>
+                                    <td>AQL Level <span> 1.5 Major</span></td>
+                                    <td>AQL Level <span> 1.5 Minor</span></td>
+                                    <td>AQL Level <span> 2.5 Major</span></td>
+                                    <td>AQL Level <span> 2.5 Minor</span></td>
+                                    <td>AQL Level <span> 4 Major</span></td>
+                                    <td>AQL Level <span> 4 Minor</span></td>
+                                </tr>
+                                <tr>
+                                    <td>01-150</td>
+                                    <td>20</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>151-280</td>
+                                    <td>32</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>281-500</td>
+                                    <td>50</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>5</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>501-1200</td>
+                                    <td>80</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>5</td>
+                                    <td>7</td>
+                                    <td>7</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>1201-3200</td>
+                                    <td>125</td>
+                                    <td>5</td>
+                                    <td>7</td>
+                                    <td>7</td>
+                                    <td>10</td>
+                                    <td>10</td>
+                                    <td>14</td>
+                                </tr>
+                                <tr>
+                                    <td>3201-10,000</td>
+                                    <td>200</td>
+                                    <td>7</td>
+                                    <td>10</td>
+                                    <td>10</td>
+                                    <td>14</td>
+                                    <td>14</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>10,001-35,000</td>
+                                    <td>315</td>
+                                    <td>10</td>
+                                    <td>14</td>
+                                    <td>14</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>35,001-150,000</td>
+                                    <td>500</td>
+                                    <td>14</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>150,001-500,000</td>
+                                    <td>800</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>500,001-OVER</td>
+                                    <td>1250</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                    <td>21</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <!--===== End aql chart table area =====-->
+
+                    <!--===== start style image area =====-->
+                    <section class="style-image-area margin-root">
+                        <!-- common heading -->
+                        <div class="full-row image-style-full-row desk-m">
+                            <h2 class="pl_root">IMAGE OF STYLE</h2>
+                        </div>
+                        <!-- common heading -->
+                        <div class="carton-image-grid image-col-2 image-col-1">
+                            <!-- single item -->
+                            <div class="carton-row">
+                                <div class="carton-col">
+                                    <div class="carton-img-inner">
+                                        <img class="carton-img" src="image/fp.png" alt="carton" />
+                                    </div>
+                                    <p>Front View</p>
+                                </div>
+                            </div>
+                            <!-- single item -->
+                            <div class="carton-row">
+                                <div class="carton-col">
+                                    <div class="carton-img-inner">
+                                        <img class="carton-img" src="image/bp.jpg" alt="carton" />
+                                    </div>
+                                    <p>Back View</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--===== End style image area =====-->
+                </main>
+                <!--====================== End page body for print ======================-->
+                <!--====================== start page body for print ======================-->
+                <main>
+                    <h2 class="pageCount"></h2>
+                    <!--===== start INSPECTION SUMMARY table area =====-->
+                    <section class="inspection-summary-area margin-root">
+                        <div class="inspection-summary">
+                            <h2 class="general pl_root desk-m">INSPECTION SUMMARY</h2>
+                            <div class="summery-row">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum a eius illo sunt, nihil earum ex voluptatem ipsa accusantium fuga, modi voluptate, eum cupiditate dolore ipsum quibusdam? Quasi, qui
+                                    provident.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum a eius illo sunt, nihil earum ex voluptatem ipsa accusantium fuga, modi voluptate, eum cupiditate dolore ipsum quibusdam? Quasi, qui
+                                    provident.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum a eius illo sunt, nihil earum ex voluptatem ipsa accusantium fuga, modi voluptate, eum cupiditate dolore ipsum quibusdam? Quasi, qui
+                                    provident.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <!--===== End INSPECTION SUMMARY table area =====-->
+
+                    <!--===== start CARTON DETAILS table area =====-->
+                    <section class="carton-details-area margin-root">
+                        <div class="carton-details">
+                            <div class="table-carton-top">
+                                 <!-- common heading -->
+                                <div class="full-row mb-6 desk-m">
+                                    <h2 class="pl_root">CARTON DETAILS</h2>
+                                </div>
+                                <!-- common heading -->
+                                <!-- start cartion details area -->
+                                <div class="carton_details_flex">
+                                    <span class="carton-con1">Total Carton Qty : </span>
+                                    <small class="carton-con2">500</small>
+                                    <span class="carton-con3">Carton Number : </span>
+                                    <small class="carton-con4">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50.</small>
+                                </div>
+                                <!-- End cartion details area -->
+                                <div class="carton-image-grid">
+                                    <!-- single item -->
+                                    <div class="carton-row">
+                                        <div class="carton-col">
+                                            <div class="carton-img-inner">
+                                                <img class="carton-img" src="image/carton1.jpg" alt="carton" />
+                                            </div>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                        </div>
+                                    </div>
+                                    <!-- single item -->
+                                    <div class="carton-row">
+                                        <div class="carton-col">
+                                            <div class="carton-img-inner">
+                                                <img class="carton-img" src="image/carton2.jpg" alt="carton" />
+                                            </div>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                        </div>
+                                    </div>
+                                    <!-- single item -->
+                                    <div class="carton-row">
+                                        <div class="carton-col">
+                                            <div class="carton-img-inner">
+                                                <img class="carton-img" src="image/carton3.jpg" alt="carton" />
+                                            </div>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--===== End CARTON DETAILS table area =====-->
+
+                    <!--===== start DEFECTS DESCRIPTION table area =====-->
+                    <section class="defects-description-area">
+                        <div class="table-chart-top defects-description-table">
+                            <table style="width: 100%;">
+                                <tr class="general">
+                                    <td colspan="12">DEFECTS DESCRIPTION</td>
+                                    <td>Major</td>
+                                    <td>Minor</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>1</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>4</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>6</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>2</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>8</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>7</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>6</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>5</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>2</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>1</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>9</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>5</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12">Open Stitch</td>
+                                    <td>4</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td class="defect-found-right" colspan="12">Total Defect Found</td>
+                                    <td class="pass-bg"><b>13</b></td>
+                                    <td class="pass-bg"><b>18</b></td>
+                                </tr>
+                                <tr>
+                                    <td class="unit-blod common-bg" colspan="11">Unit to be Inspected : <b>315</b></td>
+                                    <td class="defect-found-right common-bg">Allowed in AQL</td>
+                                    <td class="common-bg"><b>14</b></td>
+                                    <td class="common-bg"><b>21</b></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <!--===== End DEFECTS DESCRIPTION table area =====-->
+                </main>
+                <!--====================== End page body for print ======================-->
+                <!--====================== start page body for print ======================-->
+                <main>
+                    <h2 class="pageCount"></h2>
+                    <!--===== start CARTON DETAILS SINGLE area =====-->
+                    <section class="carton-details-item-area margin-root">
+                        <div class="inspection-details">
+                            <h2 class="general pl_root desk-m">DETAILS</h2>
+                            <div class="carton-image-grid single-image-carton-grid">
+                                <!-- single item -->
+                                <div class="carton-row">
+                                    <div class="carton-col">
+                                        <div class="carton-img-inner">
+                                            <img class="carton-img" src="image/jaket.jpg" alt="carton" />
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                    </div>
+                                </div>
+                                <!-- single item -->
+                                <div class="carton-row">
+                                    <div class="carton-col">
+                                        <div class="carton-img-inner">
+                                            <img class="carton-img" src="image/shart.jpg" alt="carton" />
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                    </div>
+                                </div>
+                                <!-- single item -->
+                                <div class="carton-row">
+                                    <div class="carton-col">
+                                        <div class="carton-img-inner">
+                                            <img class="carton-img" src="image/tshart.jpg" alt="carton" />
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                    </div>
+                                </div>
+                                <!-- single item -->
+                                <div class="carton-row">
+                                    <div class="carton-col">
+                                        <div class="carton-img-inner">
+                                            <img class="carton-img" src="image/1.jpg" alt="carton" />
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                    </div>
+                                </div>
+                                <!-- single item -->
+                                <div class="carton-row">
+                                    <div class="carton-col">
+                                        <div class="carton-img-inner">
+                                            <img class="carton-img" src="image/3.jpg" alt="carton" />
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                    </div>
+                                </div>
+                                <!-- single item -->
+                                <div class="carton-row">
+                                    <div class="carton-col">
+                                        <div class="carton-img-inner">
+                                            <img class="carton-img" src="image/4.jpg" alt="carton" />
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                    </div>
+                                </div>
+                                <!-- single item -->
+                                <div class="carton-row">
+                                    <div class="carton-col">
+                                        <div class="carton-img-inner">
+                                            <img class="carton-img" src="image/jaket.jpg" alt="carton" />
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                    </div>
+                                </div>
+                                <!-- single item -->
+                                <div class="carton-row">
+                                    <div class="carton-col">
+                                        <div class="carton-img-inner">
+                                            <img class="carton-img" src="image/shart.jpg" alt="carton" />
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                    </div>
+                                </div>
+                                <!-- single item -->
+                                <div class="carton-row">
+                                    <div class="carton-col">
+                                        <div class="carton-img-inner">
+                                            <img class="carton-img" src="image/tttt.jpg" alt="carton" />
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--===== End CARTON DETAILS SINGLE area =====-->
+                </main>
+                <!--====================== End page body for print ======================-->
+                <!--===== start footer area =====-->
+                <footer class="footer-area">
+                    <div class="footer-content">
+                        <p>House # 531, (5th Floor), Lane # 11, DOHS, Baridhara, Dhaka-1206, Bangladesh.</p>
+                        <p>Mobile : +88-01731155900, +88-01705456003</p>
+                        <p>E-mail: zakir@optimumsourcingbd.com, zakir@optimum-bd.com</p>
+                    </div>
+                </footer>
+                <!--===== End footer area =====-->
+            </div>
+        </div>
+        <script>   
+            var mainElements = document.querySelectorAll("main");
+            var totalPages = mainElements.length;
+
+            for (var i = 0; i < mainElements.length; i++) {
+                var h2 = mainElements[i].querySelector("h2");                 
+                var pageNumElement = document.createElement("span");
+                pageNumElement.textContent = "Page " + (i + 1) + " of " + totalPages;
+                h2.appendChild(pageNumElement);
+            }
+        </script>
+    </body>
+</html>
